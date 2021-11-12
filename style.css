@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(22, 22, 22);
+}
+.nav {
+    width: 95%;
+    height: 40px;
+    background-color: rgb(255, 68, 0);
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    font-size: 15px;
+}
+.pervay {
+    position: relative;
+}
+.pervay li {
+    width: 120px;
+    display: inline-block;
+    background-color: rgb(255, 68, 0);
+    text-align: center;
+}
+.vtoray {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 123px;
+}
+.tretia {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 248px;
+}
+.chetvertay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+.patay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+ul li:hover >ul {
+    display: block;
+}
+.vtoray li {
+    display: block;
+    width: 120px;
+    position: relative;
+}
+.tretia li {
+    display: block;
+    width: 120px;
+    position: relative;
+}
+.chetvertay li {
+    display: block;
+    width: 120px;
+    position: relative;
+}
+.patay li {
+    display: block;
+    width: 120px;
+    position: relative;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 150px;
+}
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
